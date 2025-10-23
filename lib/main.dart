@@ -16,7 +16,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   LatLng? currentLocation;
   bool buzzerOn = false;
-  final String arduinoIP = "192.168.1.100";
+  final String arduinoIP = "0.0.0.0";
   Timer? locationTimer;
 
   // Coordenadas de vista previa: Reynosa, Tamaulipas

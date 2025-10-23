@@ -1,0 +1,28 @@
+2025-10-21 23:47:20.961: [INFO] VisibilityChanged: 0
+2025-10-21 23:47:21.004: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.005: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.006: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.006: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.008: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.009: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.010: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.011: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.012: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.014: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.015: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.021: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-21 23:47:21.021: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-21 23:47:21.021: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-21 23:47:21.021: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-10-21 23:47:21.022: [INFO] OnDoneLoading sync enabled: 0
+2025-10-21 23:47:21.135: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2025-10-21 23:47:21.225: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2025-10-21 23:47:21.228: [INFO] Primary account changed.
+2025-10-21 23:47:21.228: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2025-10-21 23:47:21.232: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2025-10-21 23:47:21.393: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2025-10-21 23:47:23.100: [INFO] VisibilityChanged: 1
+2025-10-21 23:47:23.426: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-21 23:47:23.426: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-21 23:47:23.733: [INFO] Sync initialization duration: 2214ms
+2025-10-21 23:48:47.042: [INFO] VisibilityChanged: 0
