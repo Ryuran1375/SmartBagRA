@@ -1,8 +1,41 @@
 {
-   "checksum": "4d59a0260604eee7a04352721a87d055",
+   "checksum": "d8cc8674bb305fc35f1bd3f027747bbd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
+            "date_added": "13406257741832717",
+            "date_last_used": "0",
+            "guid": "a0249d41-efbb-420e-a83a-959e64a6ef8e",
+            "id": "15",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13406257741832485",
+            "date_last_used": "0",
+            "guid": "4ce0d001-eed3-4f6c-9319-c8c423e3c7b5",
+            "id": "14",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13406257741831451",
+            "date_last_used": "0",
+            "guid": "6cc845dc-3241-46be-b349-14f64b102ac3",
+            "id": "13",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=247829",
+            "visit_count": 0
+         }, {
             "date_added": "13405564041021951",
             "date_last_used": "0",
             "guid": "560f0de4-4d71-4c19-a553-918a12577e70",
@@ -38,7 +71,7 @@
          } ],
          "date_added": "13405564040797242",
          "date_last_used": "0",
-         "date_modified": "13405564041021951",
+         "date_modified": "13406257741832717",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Favorites bar",
@@ -88,6 +121,6 @@
          "type": "folder"
       }
    },
-   "sync_metadata": "CjEKDgiIgQISCBVTaiaZAQAAEgAqGGZLRWVjdjhaODlXVy8rZXdqNWtmaVE9PUgDoAYHEqwBCAkSpwEKHHRsWnVPNEh3VzJodzBTcHVLU3JrTGtEd0tHRT0SJGE1NTU5M2RmLWE5MTQtNDE5Yi1hMTM3LWMwYTEwMTkzOWMwYxgAIAAoADDas8SblzI48LXEm5cyQPC1xJuXMkocTk5oSWt2TmZYSmlDOUtqMlRMUXlRSkhoRmFvPVoeIhxlUy9raWdsWVh2UWVBTU9hLy9PRC9QOGtXRTA9ZQAAAADCPgJgABKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ5ZTFlMmJjNC1iM2U0LTU3OTMtYWFlNi0zYjllZWYxOTE1MTEYACAAKAAwy+2+7cEuOL28iaPpL0C9vImj6S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNzVjYzA2MTMtZmE4Ni01MzIxLTgwYjEtY2ZkODMxYmJlN2Y3GAAgACgAMMztvu3BLjjMvImj6S9AzLyJo+kvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEq0BCAoSqAEKHFBnYjBpNnREVHVXaXk5NGNaMlhveUErNVpIMD0SJGZlMzZmNTRlLTY2NjMtNDFiZi04MWQyLTdiYTcxMGQwMzQwMBgAIAAoADDWs8SblzI477TEm5cyQO+0xJuXMkocWmpMNTJOVW9KZXJEdFJvTkVKNFhHVlcwbVdrPVofIh2yK1pXbXQ3RFd0WjZhbW55bUUrM0d1ZklhVEh3PWUAAAAAwj4CYAASjgEIAxKJAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkZDExMjM0OTktNGNmMi01NDAwLTk0ZTMtMWI1ZDI5ZDljNmE0GAAgACgAMNDtvu3BLjjJvYmj6S9Ayb2Jo+kvShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAAMI+AmAAMAA4AA==",
+   "sync_metadata": "CjEKDgiIgQISCBVTaiaZAQAAEgAqGGZLRWVjdjhaODlXVy8rZXdqNWtmaVE9PUgDoAYHEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGQxMTIzNDk5LTRjZjItNTQwMC05NGUzLTFiNWQyOWQ5YzZhNBgAIAAoADDQ7b7twS44yb2Jo+kvQMm9iaPpL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKtAQgKEqgBChxQZ2IwaTZ0RFR1V2l5OTRjWjJYb3lBKzVaSDA9EiRmZTM2ZjU0ZS02NjYzLTQxYmYtODFkMi03YmE3MTBkMDM0MDAYACAAKAAw1rPEm5cyOO+0xJuXMkDvtMSblzJKHFpqTDUyTlVvSmVyRHRSb05FSjRYR1ZXMG1Xaz1aHyIdsitaV210N0RXdFo2YW1ueW1FKzNHdWZJYVRIdz1lAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDc1Y2MwNjEzLWZhODYtNTMyMS04MGIxLWNmZDgzMWJiZTdmNxgAIAAoADDM7b7twS44zLyJo+kvQMy8iaPpL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ5ZTFlMmJjNC1iM2U0LTU3OTMtYWFlNi0zYjllZWYxOTE1MTEYACAAKAAwy+2+7cEuOL28iaPpL0C9vImj6S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASrAEICRKnAQocdGxadU80SHdXMmh3MFNwdUtTcmtMa0R3S0dFPRIkYTU1NTkzZGYtYTkxNC00MTliLWExMzctYzBhMTAxOTM5YzBjGAAgACgAMNqzxJuXMjjwtcSblzJA8LXEm5cyShxOTmhJa3ZOZlhKaUM5S2oyVExReVFKSGhGYW89Wh4iHGVTL2tpZ2xZWHZRZUFNT2EvL09EL1A4a1dFMD1lAAAAAMI+AmAAMAA4AA==",
    "version": 1
 }

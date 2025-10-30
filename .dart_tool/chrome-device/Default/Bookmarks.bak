@@ -1,0 +1,93 @@
+{
+   "checksum": "4d59a0260604eee7a04352721a87d055",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13405564041021951",
+            "date_last_used": "0",
+            "guid": "560f0de4-4d71-4c19-a553-918a12577e70",
+            "id": "8",
+            "name": "ASUS Software Portal - Exclusive technology",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/Software-and-Innovations-Portal/",
+            "visit_count": 0
+         }, {
+            "date_added": "13405564041021882",
+            "date_last_used": "0",
+            "guid": "99a7c489-c9d1-4374-8298-dcd1c6a4fff7",
+            "id": "7",
+            "name": "MyASUS Software - Get the best from ASUS PC",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://www.asus.com/ASUS-Software/",
+            "visit_count": 0
+         }, {
+            "date_added": "13405564041021630",
+            "date_last_used": "0",
+            "guid": "195b6dda-c99f-4303-b745-d2e9c28902ab",
+            "id": "6",
+            "name": "McAfee LiveSafe",
+            "show_icon": false,
+            "source": "oem_preload",
+            "type": "url",
+            "url": "https://home.mcafee.com/root/campaign.aspx?cid=247829",
+            "visit_count": 0
+         } ],
+         "date_added": "13405564040797242",
+         "date_last_used": "0",
+         "date_modified": "13405564041021951",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [  ],
+            "date_added": "13368692275293654",
+            "date_last_used": "0",
+            "date_modified": "13368692275293654",
+            "guid": "a55593df-a914-419b-a137-c0a101939c0c",
+            "id": "9",
+            "name": "Other Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13368692275293685",
+            "date_last_used": "0",
+            "date_modified": "13368692275293685",
+            "guid": "fe36f54e-6663-41bf-81d2-7ba710d03400",
+            "id": "10",
+            "name": "Synced Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13405564040797242",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13405564040797242",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCBVTaiaZAQAAEgAqGGZLRWVjdjhaODlXVy8rZXdqNWtmaVE9PUgDoAYHEqwBCAkSpwEKHHRsWnVPNEh3VzJodzBTcHVLU3JrTGtEd0tHRT0SJGE1NTU5M2RmLWE5MTQtNDE5Yi1hMTM3LWMwYTEwMTkzOWMwYxgAIAAoADDas8SblzI48LXEm5cyQPC1xJuXMkocTk5oSWt2TmZYSmlDOUtqMlRMUXlRSkhoRmFvPVoeIhxlUy9raWdsWVh2UWVBTU9hLy9PRC9QOGtXRTA9ZQAAAADCPgJgABKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ5ZTFlMmJjNC1iM2U0LTU3OTMtYWFlNi0zYjllZWYxOTE1MTEYACAAKAAwy+2+7cEuOL28iaPpL0C9vImj6S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNzVjYzA2MTMtZmE4Ni01MzIxLTgwYjEtY2ZkODMxYmJlN2Y3GAAgACgAMMztvu3BLjjMvImj6S9AzLyJo+kvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEq0BCAoSqAEKHFBnYjBpNnREVHVXaXk5NGNaMlhveUErNVpIMD0SJGZlMzZmNTRlLTY2NjMtNDFiZi04MWQyLTdiYTcxMGQwMzQwMBgAIAAoADDWs8SblzI477TEm5cyQO+0xJuXMkocWmpMNTJOVW9KZXJEdFJvTkVKNFhHVlcwbVdrPVofIh2yK1pXbXQ3RFd0WjZhbW55bUUrM0d1ZklhVEh3PWUAAAAAwj4CYAASjgEIAxKJAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkZDExMjM0OTktNGNmMi01NDAwLTk0ZTMtMWI1ZDI5ZDljNmE0GAAgACgAMNDtvu3BLjjJvYmj6S9Ayb2Jo+kvShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAAMI+AmAAMAA4AA==",
+   "version": 1
+}

@@ -26,3 +26,9 @@
 2025-10-21 23:47:23.426: [INFO] BookmarkNodeAdded, ABU: 0
 2025-10-21 23:47:23.733: [INFO] Sync initialization duration: 2214ms
 2025-10-21 23:48:47.042: [INFO] VisibilityChanged: 0
+2025-10-30 00:29:01.468: [INFO] OnDoneLoading sync enabled: 1
+2025-10-30 00:29:01.832: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-30 00:29:01.832: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-30 00:29:01.832: [INFO] BookmarkNodeAdded, ABU: 0
+2025-10-30 00:29:11.219: [INFO] Sync initialization duration: 3750ms
+2025-10-30 00:29:44.121: [INFO] VisibilityChanged: 0

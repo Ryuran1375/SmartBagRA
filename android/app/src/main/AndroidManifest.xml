@@ -3,6 +3,10 @@
         android:label="smartbag"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- API key para Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDDuFP3G1SvEzEcuN15P3KeERDokxTSkDs" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
