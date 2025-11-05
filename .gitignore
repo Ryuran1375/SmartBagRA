@@ -1,13 +1,71 @@
-# Flutter/Dart
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.lock
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages
 .pub-cache/
+.pub/
 build/
+generated_plugin_registrant.dart
+
+# Android related
 android/.gradle/
+android/captures/
 android/app/build/
+android/local.properties
+
+# iOS/Xcode related
+ios/Flutter/.last_build_id
+ios/.symlinks/
 ios/Pods/
-*.iml
-.idea/
-.vscode/
+ios/build/
+ios/DerivedData/
+ios/.generated/
+
+# macOS related
+macos/Flutter/ephemeral/
+macos/DerivedData/
+macos/Pods/
+macos/build/
+
+# Windows related
+windows/flutter/ephemeral/
+windows/build/
+
+# Linux related
+linux/flutter/ephemeral/
+linux/build/
+
+# Web related
+web/.dart_tool/
+web/build/
+
+# Others
+coverage/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Ignore GoogleService files (si usas Firebase)
+google-services.json
+GoogleService-Info.plist
