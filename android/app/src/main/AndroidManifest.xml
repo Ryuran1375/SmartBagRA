@@ -1,8 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartbag">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="smartbag"
-        android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"> <!-- permite HTTP simple -->
         <!-- API key para Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
