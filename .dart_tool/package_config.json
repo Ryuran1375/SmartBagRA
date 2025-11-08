@@ -57,7 +57,7 @@
     },
     {
       "name": "crypto",
-      "rootUri": "file:///C:/Users/braya/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.6",
+      "rootUri": "file:///C:/Users/braya/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.7",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -129,7 +129,7 @@
     },
     {
       "name": "google_maps_flutter",
-      "rootUri": "file:///C:/Users/braya/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter-2.13.1",
+      "rootUri": "file:///C:/Users/braya/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter-2.14.0",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },

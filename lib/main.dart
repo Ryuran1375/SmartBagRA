@@ -18,9 +18,12 @@ class _MyAppState extends State<MyApp> {
   bool buzzerOn = false;
   final String arduinoIP = "192.168.43.150";
   Timer? locationTimer;
+  String? gpsError;
+  int? satellites;
+  double? hdop;
 
   // Coordenadas de vista previa: Reynosa, Tamaulipas
-  static const LatLng reynosaCenter = LatLng(26.0924, -98.2770);
+  static const LatLng reynosaCenter = LatLng(26.050088, -98.259710);
   static const double previewZoom = 12.0;
   static const double gpsZoom = 15.0;
 
@@ -59,6 +62,20 @@ class _MyAppState extends State<MyApp> {
           .timeout(const Duration(seconds: 3));
       if (res.statusCode == 200) {
         final data = jsonDecode(res.body);
+
+        // Si el servidor indica un error en la ubicación
+        if (data is Map && data['error'] != null) {
+          setState(() {
+            gpsError = data['error'].toString();
+            satellites = (data['satellites'] is num)
+                ? (data['satellites'] as num).toInt()
+                : int.tryParse('${data['satellites']}');
+            // no cambiamos currentLocation
+          });
+          debugPrint("Servidor GPS respondió error: $gpsError");
+          return;
+        }
+
         // Asegurar que se parsean como double
         final lat = (data['lat'] is num)
             ? (data['lat'] as num).toDouble()
@@ -67,11 +84,21 @@ class _MyAppState extends State<MyApp> {
             ? (data['lon'] as num).toDouble()
             : double.tryParse('${data['lon']}');
 
+        final sat = (data['satellites'] is num)
+            ? (data['satellites'] as num).toInt()
+            : int.tryParse('${data['satellites']}');
+        final hd = (data['hdop'] is num)
+            ? (data['hdop'] as num).toDouble()
+            : double.tryParse('${data['hdop']}');
+
         if (lat != null && lon != null) {
           final newLocation = LatLng(lat, lon);
           if (_locationChanged(currentLocation, newLocation)) {
             setState(() {
               currentLocation = newLocation;
+              gpsError = null;
+              satellites = sat;
+              hdop = hd;
             });
             // Animar la cámara a la nueva ubicación si aún no se hizo
             if (!_movedToGps) {
@@ -102,6 +129,22 @@ class _MyAppState extends State<MyApp> {
       );
     } catch (e) {
       debugPrint("Error al mover cámara: $e");
+    }
+  }
+
+  Future<void> _refreshMap() async {
+    try {
+      await fetchLocation();
+
+      if (currentLocation != null) {
+        await _moveCameraTo(currentLocation!, zoom: gpsZoom);
+        _movedToGps = true;
+      } else {
+        await _moveCameraTo(reynosaCenter, zoom: previewZoom);
+        _movedToGps = false;
+      }
+    } catch (e) {
+      debugPrint("Error al refrescar mapa: $e");
     }
   }
 
@@ -187,8 +230,10 @@ class _MyAppState extends State<MyApp> {
                       Expanded(
                         child: Text(
                           currentLocation == null
-                              ? 'Vista previa: Reynosa, Tamps — esperando señal GPS...'
-                              : 'GPS encontrado — Lat ${currentLocation!.latitude.toStringAsFixed(5)}, Lon ${currentLocation!.longitude.toStringAsFixed(5)}',
+                              ? (gpsError != null
+                                    ? 'Error GPS: $gpsError — Sat: ${satellites ?? 'n/a'}'
+                                    : 'Anterior Ubicacion: Reynosa, Tamps — esperando señal GPS... (Sat: ${satellites ?? 'n/a'})')
+                              : 'GPS — Lat ${currentLocation!.latitude.toStringAsFixed(5)}, Lon ${currentLocation!.longitude.toStringAsFixed(5)} · Sat: ${satellites ?? 'n/a'} · HDOP: ${hdop?.toStringAsFixed(2) ?? 'n/a'}',
                           style: const TextStyle(fontSize: 14),
                         ),
                       ),
@@ -199,6 +244,13 @@ class _MyAppState extends State<MyApp> {
                           _movedToGps = false;
                         },
                         icon: const Icon(Icons.location_city),
+                      ),
+                      IconButton(
+                        tooltip: 'Refrescar mapa',
+                        onPressed: () {
+                          _refreshMap();
+                        },
+                        icon: const Icon(Icons.refresh),
                       ),
                     ],
                   ),
