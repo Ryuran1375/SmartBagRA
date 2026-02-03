@@ -86,7 +86,7 @@
     },
     {
       "name": "test_api",
-      "version": "0.7.6",
+      "version": "0.7.7",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -115,7 +115,7 @@
     },
     {
       "name": "meta",
-      "version": "1.16.0",
+      "version": "1.17.0",
       "dependencies": []
     },
     {
@@ -277,7 +277,7 @@
     },
     {
       "name": "http",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "dependencies": [
         "async",
         "http_parser",
@@ -320,20 +320,11 @@
     },
     {
       "name": "google_maps_flutter_platform_interface",
-      "version": "2.14.0",
+      "version": "2.14.1",
       "dependencies": [
         "collection",
         "flutter",
         "plugin_platform_interface",
-        "stream_transform"
-      ]
-    },
-    {
-      "name": "google_maps_flutter_ios",
-      "version": "2.15.5",
-      "dependencies": [
-        "flutter",
-        "google_maps_flutter_platform_interface",
         "stream_transform"
       ]
     },
@@ -346,7 +337,7 @@
     },
     {
       "name": "google_maps_flutter_web",
-      "version": "0.5.14+2",
+      "version": "0.5.14+3",
       "dependencies": [
         "collection",
         "flutter",
@@ -387,11 +378,10 @@
       "dependencies": []
     },
     {
-      "name": "google_maps_flutter_android",
-      "version": "2.18.4",
+      "name": "google_maps_flutter_ios",
+      "version": "2.17.0",
       "dependencies": [
         "flutter",
-        "flutter_plugin_android_lifecycle",
         "google_maps_flutter_platform_interface",
         "stream_transform"
       ]
@@ -412,13 +402,23 @@
       ]
     },
     {
+      "name": "google_maps_flutter_android",
+      "version": "2.18.12",
+      "dependencies": [
+        "flutter",
+        "flutter_plugin_android_lifecycle",
+        "google_maps_flutter_platform_interface",
+        "stream_transform"
+      ]
+    },
+    {
       "name": "vm_service",
       "version": "15.0.2",
       "dependencies": []
     },
     {
       "name": "image",
-      "version": "4.5.4",
+      "version": "4.7.2",
       "dependencies": [
         "archive",
         "meta",
@@ -452,7 +452,7 @@
     },
     {
       "name": "ffi",
-      "version": "2.1.4",
+      "version": "2.1.5",
       "dependencies": []
     },
     {
@@ -474,7 +474,7 @@
     },
     {
       "name": "flutter_plugin_android_lifecycle",
-      "version": "2.0.32",
+      "version": "2.0.33",
       "dependencies": [
         "flutter"
       ]
