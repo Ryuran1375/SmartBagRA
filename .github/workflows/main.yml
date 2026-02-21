@@ -1,4 +1,4 @@
-name: CI-CD Mochila GPS
+name: CI-CD SmartBag
 
 on:
   push:
@@ -7,29 +7,44 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-firmware:
+  test:
+    name: Run Flutter Tests
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Instalar PlatformIO
-        run: pip install platformio
-      - name: Compilar firmware ESP32
-        run: pio run
 
-  test-flutter:
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Instalar Flutter
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Flutter
         uses: subosito/flutter-action@v2
-      - name: Obtener dependencias
+        with:
+          flutter-version: 'stable'
+
+      - name: Install dependencies
         run: flutter pub get
-      - name: Ejecutar pruebas
+
+      - name: Analyze code
+        run: flutter analyze
+
+      - name: Run unit tests
         run: flutter test
 
-  deploy:
-    needs: [build-firmware, test-flutter]
+  build:
+    name: Build APK Release
+    needs: test
     runs-on: ubuntu-latest
+
     steps:
-      - name: Build APK Release
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build release APK
         run: flutter build apk --release
